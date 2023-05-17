@@ -1,0 +1,64 @@
+.App {
+  background-color: #87a9e8;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+
+
+.App-header {
+  background-color: #7c818b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#image{
+  width: auto;
+  max-height: 250px;
+  flex: auto;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+#author{
+  color: aquamarine;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+} 
+.news{
+  /* display: flex; */
+  /* justify-content: center; */
+  padding-top: 5%;
+  padding-left: 2%;
+  margin: auto;
+  width: auto;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+}
+.abstract{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#saveButton{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.weatherInfo{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
